@@ -1,0 +1,9 @@
+{
+  "appId": "in.yardleyesports.app",
+  "appName": "YARDLEY ESPORTS",
+  "webDir": "public",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

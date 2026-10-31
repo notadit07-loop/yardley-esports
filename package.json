@@ -1,0 +1,30 @@
+{
+  "name": "yardley-esports-india",
+  "version": "2.4.0",
+  "description": "Complete Free Fire Gaming Tournament Application (Android PWA + Node.js/Express + SQLite)",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "backup": "node backend/backup.js",
+    "android:init": "npx cap add android",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

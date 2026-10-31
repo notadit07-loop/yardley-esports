@@ -1,0 +1,27 @@
+{
+  "id": "in.yardleyesports.app",
+  "name": "YARDLEY ESPORTS — Free Fire Tournament Arena",
+  "short_name": "Yardley Esports",
+  "description": "India's Premier Free Fire Tournament App — BR-Squad, BR-Duo, BR-Solo, Clash Squad, 2v2, and 1v1.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#070709",
+  "theme_color": "#dc2626",
+  "categories": ["games", "entertainment", "sports"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
